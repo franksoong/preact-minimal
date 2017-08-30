@@ -33,7 +33,7 @@ export default ({
 
             new HtmlPlugin({
                 title: 'Preact minimal',
-                template: path.join(basePath, 'index.html')
+                template: path.join(basePath, 'index.html'),
             }),
 
             new webpack.optimize.CommonsChunkPlugin({

@@ -1,6 +1,6 @@
 import { h } from 'preact';
 
-import styles from './header.pcss';
+import styles from './header.css';
 
 const Header = (props) => (
     <header className={styles['header']}>

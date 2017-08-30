@@ -34,7 +34,7 @@
     "copy:assets": "cp -r app/resources/ assets/",
     "copy:manifest": "cp manifest.json assets/manifest.json",
     "webpack:dev": "webpack-dev-server --config ./config/webpack.config.dev.babel.js --env=developement",
-    "webpack:prod": "NODE_ENV=production webpack --config ./config/webpack.config.prod.babel.js --env=production",
+    "webpack:prod": "set NODE_ENV=production && webpack --config ./config/webpack.config.prod.babel.js --env=production",
     "dev": "npm run webpack:dev",
     "prod": "npm run webpack:prod && npm run copy:assets && npm run copy:manifest",
     "start": "http-server assets/"

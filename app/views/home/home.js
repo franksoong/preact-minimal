@@ -1,6 +1,6 @@
 import { h, Component } from 'preact';
 
-import styles from './home.pcss';
+import styles from './home.css';
 
 class Home extends Component {
     render() {
